@@ -15,8 +15,9 @@
   <properties>
     <seed4j.version>@project.version@</seed4j.version>
     <!-- Dependencies -->
-    <logstash-logback-encoder.version>8.1</logstash-logback-encoder.version>
-    <spring-boot.version>3.5.6</spring-boot.version>
+    <jacoco.version>0.8.14</jacoco.version>
+    <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
+    <spring-boot.version>3.5.7</spring-boot.version>
     <spring-cloud.version>2025.0.0</spring-cloud.version>
     <spring-cloud-netflix-eureka-client.version>4.3.0</spring-cloud-netflix-eureka-client.version>
     <springdoc-openapi.version>2.8.13</springdoc-openapi.version>
@@ -29,7 +30,7 @@
     <commons-lang3.version>3.19.0</commons-lang3.version>
     <ehcache.version>3.11.1</ehcache.version>
     <thymeleaf-layout-dialect.version>3.4.0</thymeleaf-layout-dialect.version>
-    <htmx-webjars.version>2.0.7</htmx-webjars.version>
+    <htmx-webjars.version>2.0.8</htmx-webjars.version>
     <alpinejs-webjars.version>3.15.0</alpinejs-webjars.version>
     <protobuf.version>4.33.0</protobuf.version>
     <proto-backwards-compatibility.version>1.0.7</proto-backwards-compatibility.version>
@@ -48,19 +49,19 @@
     <cassandraunit.version>4.3.1.0</cassandraunit.version>
     <testcontainers.version>2.0.1</testcontainers.version>
     <archunit-junit5.version>1.4.1</archunit-junit5.version>
-    <cucumber.version>7.30.0</cucumber.version>
+    <cucumber.version>7.31.0</cucumber.version>
     <approvaltests.version>25.7.0</approvaltests.version>
     <jqwik.version>1.9.3</jqwik.version>
     <!-- Maven Plugins -->
     <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
     <protobuf-maven-plugin.version>3.10.2</protobuf-maven-plugin.version>
     <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
-    <checkstyle.version>12.0.1</checkstyle.version>
+    <checkstyle.version>12.1.1</checkstyle.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
     <git-commit-id-plugin.version>9.0.2</git-commit-id-plugin.version>
     <frontend-maven-plugin.version>1.15.4</frontend-maven-plugin.version>
     <checksum-maven-plugin.version>1.11</checksum-maven-plugin.version>
-    <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
+    <maven-antrun-plugin.version>3.2.0</maven-antrun-plugin.version>
     <properties-maven-plugin.version>1.2.1</properties-maven-plugin.version>
     <sonar-maven-plugin.version>5.2.0.4988</sonar-maven-plugin.version>
     <maven-enforcer-plugin.version>3.6.2</maven-enforcer-plugin.version>
@@ -69,9 +70,9 @@
     <surefire-plugin.version>3.5.4</surefire-plugin.version>
     <failsafe-plugin.version>3.5.4</failsafe-plugin.version>
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
-    <openapi-maven-plugin.version>0.0.26</openapi-maven-plugin.version>
+    <openapi-maven-plugin.version>0.0.27</openapi-maven-plugin.version>
     <openapi-backwards-compat-maven-plugin.version>1.0.3</openapi-backwards-compat-maven-plugin.version>
-    <liquibase-linter-maven-plugin.version>0.15.0</liquibase-linter-maven-plugin.version>
+    <liquibase-linter-maven-plugin.version>0.15.1</liquibase-linter-maven-plugin.version>
     <modernizer-maven-plugin.version>3.2.0</modernizer-maven-plugin.version>
   </properties>
 
